@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Esendex Code Challenge.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  EsendexCodeChallenge.cpp
+c:\users\admin\desktop\new folder\esendex code challenge\esendex code challenge\stringmanipulation.h(38): warning C4018: '<': signed/unsigned mismatch
+c:\users\admin\desktop\new folder\esendex code challenge\esendex code challenge\esendex_code_challenge.h(22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\admin\desktop\new folder\esendex code challenge\esendex code challenge\esendex_code_challenge.h(107): warning C4018: '<': signed/unsigned mismatch
+  Esendex Code Challenge.vcxproj -> C:\Users\Admin\Desktop\New folder\Esendex Code Challenge\Debug\EsendexCodeChallenge.exe

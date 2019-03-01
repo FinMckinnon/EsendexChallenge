@@ -1,0 +1,35 @@
+How to use file:
+
+Edit or replace the pricingRules.txt file within the "Esendex Coding Challenge" folder 
+in the sent file, use the format of "<item>,<unit price>,<number of items for special price>,<special price>" - 
+without the use of "<" and ">".
+To change what items are in the basket, run the program and follow the on-screen instructions.
+After entering the items, a preview of the basket and its cost will be displayed. 
+To close the program, press the enter key.
+
+How I approached the problem:
+
+For this programming challenge I have decided to use a more class and 
+structure based approach, allowing for a more structured design which is easy 
+to use and read. I have created an Items structure which will be used to hold information 
+about each item's pricing rules and how many of the specified item are being purchased. I have also
+created an Esendex_Coding_Challenge class containing the requested methods from the brief. 
+
+I pass in the pricing rules document and split it into substring, these are then 
+passed to a legalItems string and a new Items struct for the data to be saved
+and used later. I have included the legalItems string to ensure that a character
+that does not have a pricing rule associated with it cannot be put into the 
+basket. I have also created a checkout information screen, allowing the user to see the 
+breakdown of their complete purchase. 
+
+I had originally planned to use run length encoding within the program to 
+find the pricing for the checkout; however, this was halted when the test cases
+showed that the items didn't have to be in alphabetic order. My next approach 
+was to then sort the items into an alphabetic order, but I decided instead to increment 
+a count unique to the item whenever it was passed into the basket. 
+
+When creating the program, I realised that the pricing rules did not have to be hard-coded 
+as they could be automatically placed into a struct within the code algebraically. Furthermore, 
+the code is easily adaptable as new items can be added into the text file without having to
+edit the code directly. Old pricing rules can also be easily changed, for instance, if a deal were to
+end or the price of an item were to change.
